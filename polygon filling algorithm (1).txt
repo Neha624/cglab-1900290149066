@@ -1,0 +1,11 @@
+Algorithm:-
+
+       Step 1- Read coordinates of all the vertices of polygon
+       Step 2- Read coordinates of the clipping window
+       Step 3- Consider the left edge of window
+       Step 4- Compare the vertices of each edge of the polygon , individually with clipping plane.
+       Step 5-Save the resulting intersections and vertices in the new list of vertices according to 
+               four possible relationships between the edge and the clipping boundary discussed earlier.
+       Step 6- Repeat the steps 4 and 5 for remaining edges of the clipping window. Each time the resultant list 
+               of the vertices of is successively passed to process the next edge of the clipping window.
+       Step 7- Stop
